@@ -11,7 +11,6 @@
   flex-direction: row;
   gap: 32px;
   text-underline-offset: 5px;
-  
 }
 
 .header__links-list-item_no-bullit {
@@ -55,10 +54,10 @@
 .cover__title {
   position: relative;
   z-index: 2;
+  height: 385px;
   margin-bottom: 106px;
   font-weight: 700;
   font-size: 100px;
-  height: 385px;
   line-height: 1.15;
   text-transform: uppercase;
 }
@@ -68,13 +67,13 @@
 }
 
 .aligned-text_left {
-  text-align: left;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .aligned-text_center {
-  text-align: center;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .aligned-text_right {
@@ -271,11 +270,11 @@
 /*FOOTER*/
 
 .footer {
-  padding: 0 50px 82px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center; 
+  justify-items: center;
   align-items: start;
+  padding: 0 50px 82px 50px;
 }
 
 .footer__adress {
@@ -283,9 +282,9 @@
   width: 265px;
 }
 
-.footer__menu-list{
-  list-style: none;
+.footer__menu-list {
   text-align: center;
+  list-style: none;
 }
 
 .footer__menu-list-item {
@@ -294,11 +293,11 @@
 }
 
 .footer__social-list {
-  list-style: none;
   display: flex;
   flex-direction: row;
-  gap: 48px;
   justify-self: end;
+  gap: 48px;
+  list-style: none;
 }
 
 .footer__social-list-item {
